@@ -4,11 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import BasicLayout from './resize.js';
+import GitHubFeatures from './GitHubFeatures.js';
+import Calendar from './Calendar.js';
+
+import EditTest from './EditTest.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+  {/* <BasicLayout /> */}
+     {/* <GitHubFeatures username="YashCh31"/>  */}
+    <Calendar/>
+
+   {/*  <EditTest > </EditTest> */}
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
