@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import BasicLayout from './resize.js';
+import BasicLayout2 from './resize2.js';
+import BasicLayout3 from './resize3.js';
 import GitHubFeatures from './GitHubFeatures.js';
 import Calendar from './Calendar.js';
+import Cal1 from './Cal.js';
 
 import EditTest from './EditTest.js';
 
@@ -14,9 +17,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-  {/* <BasicLayout /> */}
+   <BasicLayout2 /> 
      {/* <GitHubFeatures username="YashCh31"/>  */}
-    <Calendar/>
+
+     {/* <Cal1 />  */}
+    {/*<Calendar/>*/}
 
    {/*  <EditTest > </EditTest> */}
   </div>
